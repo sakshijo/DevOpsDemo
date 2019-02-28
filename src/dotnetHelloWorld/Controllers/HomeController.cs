@@ -7,6 +7,7 @@ namespace dotnetHelloWorld.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+        ViewData["Message"]="Vodafone Ireland Devops";
             return View();
         }
     }
