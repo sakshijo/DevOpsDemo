@@ -4,7 +4,13 @@ The IBM Cloud Getting started tutorial for ASP.NET Core uses this sample applica
 
 The following steps are the general procedure to set up and deploy your app. See more detailed instructions in the [Getting started tutorial for ASP.NET Core](https://console.stage1.bluemix.net/docs/runtimes/dotnet/getting-started.html#getting_started).
 
+This is the sample DOtnet website used to implement the contionous Integartion and continous delivery using Microsoft AZure pipeline.
 
-## Before you begin
+How to Use: 
+1.You can use Git repository to import the Dotnet application code or can use Azure repository to import it. 
+2.Microsoft Azure Pipeline is required to create to implement CI/CD concepts .Build pipeline as well as release pipeline . 
+3.Microsoft Azure portal can be used to launch or deploy your application on Azure cloud.
+4.Update the code in Azure repostory ,update the text messages and deploy the updated code in Azure .Build pipeline will compile and run the code and shows if any errors are there.Once the build is successfull,then build will be executed in Delivery pipeline and Cloud applictaion URL will be updated .
+5.On click of URL ,you will get updated code deploy on to the cloud .Launch the application with this URL.
 
-You'll need a [IBM Cloud account](https://console.ng.bluemix.net/registration/), [Git](https://git-scm.com/downloads) [Cloud Foundry CLI](https://github.com/cloudfoundry/cli#downloads) and .NET Core SDK v1.0.4 from the [dot.net website](https://www.microsoft.com/net/download/core)
+
